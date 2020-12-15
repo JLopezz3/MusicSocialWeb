@@ -12,7 +12,7 @@
 5. `npm i`
 6. `npm start`
 
-## Required: BE SURE TO HAVE NODEMON INSTALLED PRIOR TO STARTING SERVER
+# Required: BE SURE TO HAVE NODEMON INSTALLED PRIOR TO STARTING SERVER (do this one time and you're done)
 npm install -g nodemon
 
 ### HOW TO START SERVER SIDE:
