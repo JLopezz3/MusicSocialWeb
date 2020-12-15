@@ -1,7 +1,7 @@
 ﻿# MusicSocialWeb using:
 # <img src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/><img src="https://img.shields.io/badge/material%20ui%20-%230081CB.svg?&style=for-the-badge&logo=material-ui&logoColor=white"/><img src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white"/><img src="https://img.shields.io/badge/express.js%20-%23404d59.svg?&style=for-the-badge"/><img src="https://img.shields.io/badge/mysql-%2300f.svg?&style=for-the-badge&logo=mysql&logoColor=white"/>
 
-# Installation - Follow STEP #1 and proceed to CLIENT / SERVER SIDE INSTRUCTIONS BELOW (Run CLIENT & SERVER on TWO SEPARATE TERMINALS)
+## Installation - Follow STEP #1 and proceed to CLIENT / SERVER SIDE INSTRUCTIONS BELOW (Run CLIENT & SERVER on TWO SEPARATE TERMINALS)
 
 1. `git clone https://github.com/JLopezz3/MusicSocialWeb`
 
@@ -12,7 +12,7 @@
 5. `npm i`
 6. `npm start`
 
-# Required: BE SURE TO HAVE NODEMON INSTALLED PRIOR TO STARTING SERVER (do this one time and you're done)
+## Required: BE SURE TO HAVE NODEMON INSTALLED PRIOR TO STARTING SERVER (do this one time and you're done)
 npm install -g nodemon
 
 ### HOW TO START SERVER SIDE:
@@ -21,7 +21,7 @@ npm install -g nodemon
 4. `git pull origin main`
 5. `nodemon index.js`
 
-# CommandLine / Terminal Instructions for Git below:
+## CommandLine / Terminal Instructions for Git below:
 ### Branching
 
 1. `git branch "your-branch-name"`
