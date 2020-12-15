@@ -18,6 +18,7 @@
 4. `git pull origin main`
 5. `nodemon index.js`
 
+# CommandLine / Terminal Instructions for Git below:
 ### Branching
 
 1. `git branch "your-branch-name"`
