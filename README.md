@@ -39,3 +39,22 @@ npm install -g nodemon
 
 1. `git checkout "your-branch-name"`
 2. `git pull origin main`
+
+## Contributors 🌟
+
+Thanks goes to these wonderful people ✨✨:
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/trinhamcity1"><img src="https://avatars3.githubusercontent.com/u/70785196?s=460&v=4" width="100px;" alt=""/><br /><sub><b>Tri Nham</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/seungej"><img src="https://avatars1.githubusercontent.com/u/60298161?s=460&v=4" width="100px;" alt=""/><br /><sub><b>Seung Jung</b></sub></a><br /></td>
+  </tr>
+
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
