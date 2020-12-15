@@ -12,6 +12,9 @@
 5. `npm i`
 6. `npm start`
 
+## Required: BE SURE TO HAVE NODEMON INSTALL PRIOR TO STARTING SERVER
+npm install -g nodemon
+
 ### HOW TO START SERVER SIDE:
 2. `cd .\MusicSocialWeb\`
 3. `cd .\server\`
