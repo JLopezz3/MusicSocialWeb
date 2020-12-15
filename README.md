@@ -42,7 +42,7 @@ npm install -g nodemon
 
 ## Contributors :star:
 
-Thanks goes to these wonderful people :crown::crown::
+Thanks to my team members! :crown::crown::
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
