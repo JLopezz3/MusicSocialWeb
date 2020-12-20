@@ -7,7 +7,7 @@ function App() {
     <Router>
       <div className="app">
         <Switch>
-          <Route path="/home">
+          <Route path="/">
             <Home />
           </Route>
         </Switch>
