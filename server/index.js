@@ -1,9 +1,11 @@
 const express = require('express');
+const db = require("./db/db");
 const app = express();
 const PORT = 3000;
-
+// const cors = require("cors");
+// app.use(cors());
 app.get("/", (req, res) => {
-    res.send("hello world");
+    db.query("select * FROM heroku_fcf45fc874be4c6.a;")
 })
 
 app.listen(PORT, ()=> {
