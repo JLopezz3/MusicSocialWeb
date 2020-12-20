@@ -1,4 +1,4 @@
-import React, { useState, useEffect} from 'react';
+import React, { useState} from 'react';
 import Axios from "axios";
 
 function Home() {
@@ -6,14 +6,14 @@ function Home() {
     const [songName, setSongName] = useState('')
     const [rating, setSongRating] = useState([]);
 
-    useEffect(() => {
-        Axios.get(`https://mxer-app.herokuapp.com/api/get`).then((response) => {
-            console.log(response.data);
-        })
-    }, []);
+    // useEffect(() => {
+    //     Axios.get("https://mxer-app.herokuapp.com/api/get").then((response) => {
+    //         console.log(response.data);
+    //     })
+    // }, []);
 
     const submitRating = () => {
-        Axios.post(`https://mxer-app.herokuapp.com/api/insert`, {
+        Axios.post("https://mxer-app.herokuapp.com/api/insert", {
             songName: songName,
             songRating: rating
         }).then(() => {
