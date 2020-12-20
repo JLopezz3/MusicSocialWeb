@@ -9,7 +9,6 @@
   "proxy": "https://mxer-app.herokuapp.com/",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
