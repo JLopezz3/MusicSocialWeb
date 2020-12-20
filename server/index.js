@@ -6,8 +6,9 @@ const PORT = 3000;
 // app.use(cors());
 app.get("/", (req, res) => {
     res.json({
-        hey: "guys",
+        yo: "guys",
         welcome: "back",
+        du: "ma"
     });
 });
 
