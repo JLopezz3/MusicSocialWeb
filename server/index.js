@@ -22,23 +22,23 @@ app.use(bodyParser.urlencoded({extended: true}))
 // app.get("/", async (req, res) => {
     
 
-app.post("https://mxer-app.herokuapp.com/api/insert", (req, res) => {
+// app.post("https://mxer-app.herokuapp.com/api/insert", (req, res) => {
 
-    const songName = req.body.sonyName
-    const songRating = req.body.songRating
+//     const songName = req.body.sonyName
+//     const songRating = req.body.songRating
 
-    const sqlInsert = "INSERT INTO heroku_fcf45fc874be4c6.song (song_id, song_name, song_rating) VALUES (2, 'bcd', 4)";
-    db.query(sqlInsert, (err, result) => {
-        console.log(err);
-    })
-})
+//     const sqlInsert = "INSERT INTO heroku_fcf45fc874be4c6.song (song_id, song_name, song_rating) VALUES (2, 'bcd', 4)";
+//     db.query(sqlInsert, (err, result) => {
+//         console.log(err);
+//     })
+// })
 
-app.get("https://mxer-app.herokuapp.com/api/get", (req, res) => {
-    const sqlSelect = "SELECT * FROM heroku_fcf45fc874be4c6.song";
-    db.query(sqlSelect, (err, results) => {
-        res.send(result);
-    })
-})
+// app.get("https://mxer-app.herokuapp.com/api/get", (req, res) => {
+//     const sqlSelect = "SELECT * FROM heroku_fcf45fc874be4c6.song";
+//     db.query(sqlSelect, (err, results) => {
+//         res.send(result);
+//     })
+// })
 
 app.post("https://mxer-app.herokuapp.com/api/insert", (req, res) => {
 
