@@ -1,9 +1,13 @@
 import './App.css';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Home from './pages/Home';
 
 function App() {
   return (
     <div className="App">
-      <h1>HELLO WELCOME TO MXER!!!</h1>
+      <Router>
+        <Route path="/home" exact render={(props)=> <Home/>}/>
+      </Router>
     </div>
   );
 }
